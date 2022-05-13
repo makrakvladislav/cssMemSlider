@@ -9,3 +9,37 @@ html {
 .header__title {
   font-size: 3em;
 }
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.slider__list {
+  display: flex;
+  overflow: hidden;
+}
+
+.slider__pagination {
+  display: flex;
+  gap: 1rem;
+}
+
+.slider__pagination-bullet > div {
+  width: 1rem;
+  height: 1rem;
+  background-color: #000;
+}
+
+#slide1:checked ~ .slider__pagination .pagination-bullet-1 {
+  background-color: red;
+}
+#slide2:checked ~ .slider__pagination .pagination-bullet-2 {
+  background-color: red;
+}
+#slide3:checked ~ .slider__pagination .pagination-bullet-3 {
+  background-color: red;
+}
+#slide4:checked ~ .slider__pagination .pagination-bullet-4 {
+  background-color: red;
+}
