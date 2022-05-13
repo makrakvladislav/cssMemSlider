@@ -12,6 +12,51 @@
    <header>
      <h1 class="header__title">Css Mem Slider</h1>
    </header>
-   <div class="container"></div>
+   <div class="container">
+     <div class="slider">
+       
+        <input type="radio" id="slide1" name="slide-control" checked>
+        <input type="radio" id="slide2" name="slide-control">
+        <input type="radio" id="slide3" name="slide-control">
+        <input type="radio" id="slide4" name="slide-control">
+       
+       <div class="slider-wrapper">
+         <div class="slider__list">
+          <div class="slider__item">
+            <img src="./assets/img1.jpg" alt="img">
+            <p class="item__descritption">Image1</p>
+          </div>
+
+          <div class="slider__item">
+            <img src="./assets/img2.jpg" alt="img">
+            <p class="item__descritption">Image2</p>
+          </div>
+          <div class="slider__item">
+            <img src="./assets/img3.jpg" alt="img">
+            <p class="item__descritption">Image3</p>
+          </div>
+
+          <div class="slider__item">
+            <img src="./assets/img4.jpg" alt="img">
+            <p class="item__descritption">Image4</p>
+          </div>
+         </div>
+       </div>
+       <div class="slider__pagination">
+        <label for="slide1" class="slider__pagination-bullet">
+          <div class="pagination-bullet-1"></div>
+        </label>
+        <label for="slide2" class="slider__pagination-bullet">
+          <div class="pagination-bullet-2"></div>
+        </label>
+        <label for="slide3" class="slider__pagination-bullet">
+          <div class="pagination-bullet-3"></div>
+        </label>
+        <label for="slide4" class="slider__pagination-bullet">
+          <div class="pagination-bullet-4"></div>
+        </label>
+       </div>
+     </div>
+   </div>
 </body>
 </html>
