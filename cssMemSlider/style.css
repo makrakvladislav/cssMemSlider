@@ -40,9 +40,9 @@ input[type='radio'] {
   padding: 2rem;
   border-radius: 0.5rem;
   background: rgba( 255, 255, 255, 0.3 );
-  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
-  backdrop-filter: blur( 3px );
-  -webkit-backdrop-filter: blur( 3px );
+  box-shadow: 0 0.8rem 2rem 0 rgb(0 0 0 / 37%);
+  backdrop-filter: blur( 0.12rem );
+  -webkit-backdrop-filter: blur( 0.12rem );
 }
 
 .slider-wrapper {
@@ -127,7 +127,7 @@ input[type='radio'] {
   height: 1.3rem;
   border-radius: 50%;
   background-color: #2f4353;
-  border: 2px solid #2f4353;
+  border: 0.15rem solid #2f4353;
   transition: background-color 0.5s;
 }
 
