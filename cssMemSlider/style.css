@@ -120,30 +120,39 @@ input[type='radio'] {
   padding: 0.5rem;
 }
 
-.slider__pagination-bullet:hover {
-  cursor: pointer;
-}
-
 .slider__pagination-bullet > div {
   width: 1.3rem;
   height: 1.3rem;
   border-radius: 50%;
-  background-color: #cbc6bf;
+  background-color: #2f4353;
   border: 2px solid #2f4353;
   transition: background-color 0.5s;
 }
 
+.slider__pagination-bullet:hover {
+  cursor: pointer;
+}
+
+.slider__pagination-bullet:hover div {
+  background-color: transparent;
+}
+
+.slider__pagination-bullet:active div{
+  border-color: #ccc;
+  background-color: #ccc;
+}
+
 #slide1:checked ~ .slider__bottom .slider__pagination .pagination-bullet-1 {
-  background-color: #2f4353;
+  background-color: transparent;
 }
 #slide2:checked ~ .slider__bottom .slider__pagination .pagination-bullet-2 {
-  background-color: #2f4353;
+  background-color: transparent;
 }
 #slide3:checked ~ .slider__bottom .slider__pagination .pagination-bullet-3 {
-  background-color: #2f4353;
+  background-color: transparent;
 }
 #slide4:checked ~ .slider__bottom .slider__pagination .pagination-bullet-4 {
-  background-color: #2f4353;
+  background-color: transparent;
 }
 
 #slide1:checked ~ .slider-wrapper .slider__list {
