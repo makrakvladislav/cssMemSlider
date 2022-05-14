@@ -9,40 +9,40 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   <header>
-     <h1 class="header__title">Css Mem Slider</h1>
-   </header>
-   <div class="container">
-     <div class="slider">
+  <header>
+    <h1 class="header__title">Css Mem Slider</h1>
+  </header>
+  <div class="container">
+    <div class="slider">
+      <input type="radio" id="slide1" name="slide-control" checked>
+      <input type="radio" id="slide2" name="slide-control">
+      <input type="radio" id="slide3" name="slide-control">
+      <input type="radio" id="slide4" name="slide-control">
        
-        <input type="radio" id="slide1" name="slide-control" checked>
-        <input type="radio" id="slide2" name="slide-control">
-        <input type="radio" id="slide3" name="slide-control">
-        <input type="radio" id="slide4" name="slide-control">
-       
-       <div class="slider-wrapper">
-         <div class="slider__list">
-          <div class="slider__item">
+      <div class="slider-wrapper">
+        <div class="slider__list">
+          <div class="slider__item slide-1">
             <img src="./assets/img1.jpg" alt="img">
-            <p class="item__descritption">Image1</p>
+            <p class="item__descritption description-1">Image1</p>
           </div>
 
-          <div class="slider__item">
+          <div class="slider__item slide-2">
             <img src="./assets/img2.jpg" alt="img">
-            <p class="item__descritption">Image2</p>
+            <p class="item__descritption description-2">Image2</p>
           </div>
-          <div class="slider__item">
+          <div class="slider__item slide-3">
             <img src="./assets/img3.jpg" alt="img">
-            <p class="item__descritption">Image3</p>
+            <p class="item__descritption description-3">Image3</p>
           </div>
 
-          <div class="slider__item">
+          <div class="slider__item slide-4">
             <img src="./assets/img4.jpg" alt="img">
-            <p class="item__descritption">Image4</p>
+            <p class="item__descritption description-4">Image4</p>
           </div>
-         </div>
-       </div>
-       <div class="slider__pagination">
+        </div>
+      </div>
+
+      <div class="slider__pagination">
         <label for="slide1" class="slider__pagination-bullet">
           <div class="pagination-bullet-1"></div>
         </label>
@@ -55,8 +55,8 @@
         <label for="slide4" class="slider__pagination-bullet">
           <div class="pagination-bullet-4"></div>
         </label>
-       </div>
+      </div>
      </div>
-   </div>
+  </div>
 </body>
 </html>
